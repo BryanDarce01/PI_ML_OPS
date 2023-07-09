@@ -147,6 +147,6 @@ def recomendacion(Titulo: str):
     peliculas_similares = list(enumerate(cosenoSimilaridad[indices]))
     peliculas_ordenadas = sorted(peliculas_similares, key=lambda tupla: tupla[1], reverse=True)
     extraer_indices = [i for i, _ in peliculas_ordenadas[1:6]]
-    respuesta = datos_reducidos['Titulo'].iloc[extraer_indices].values.tolist()
+    respuesta = str(datos_reducidos['Titulo'].iloc[extraer_indices].values.tolist())
 
     return {'Respuesta': str(respuesta)}
