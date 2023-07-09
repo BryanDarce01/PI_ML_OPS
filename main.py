@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import uvicorn
 import pandas as pd
-from unidecode import unidecode
+# from unidecode import unidecode
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity, linear_kernel
 from sklearn.utils import shuffle
