@@ -149,4 +149,4 @@ def recomendacion(Titulo: str):
     extraer_indices = [i for i, _ in peliculas_ordenadas[1:6]]
     respuesta = datos_reducidos['Titulo'].iloc[extraer_indices].values.tolist()
 
-    return {'Respuesta': respuesta}
+    return {'Respuesta': str(respuesta)}
