@@ -15,7 +15,7 @@
 
 El proyecto consta de dos partes principales. 
 
-En la primera parte, se crea un sistema de consultas que permite obtener información relacionada con películas como grabaciones, el director y otros datos de las películas consultadas, utilizando una base de datos de películas. 
+En la primera parte, se crea un sistema de consultas que permite obtener información relacionada con películas como por ejemplo las grabaciones, el director y otros datos de las películas consultadas, utilizando una base de datos de películas. 
 
 En la segunda parte, se desarrolla un sistema de recomendación de películas basado en Machine Learning. Este sistema, al recibir un título ingresado por el usuario, devuelve una lista de 5 películas similares.
 
@@ -26,7 +26,7 @@ Se llevó a cabo el proceso de extracción de datos, la transformación de los d
 Este archivo será utilizado posteriormente para el análisis y entrenamiento del modelo.
 
 ### 2. Análisis Exploratorio de Datos ( [ EDA ](https://github.com/BryanDarce01/PI_ML_OPS/blob/master/EDA.ipynb))
-En en este paso se exploran y visualizan los datos para tener un mejor entendimiento de la información que contiene els el set de datos con el que se va a trabajar posteriormente.
+En en este paso se exploran y visualizan los datos para tener un mejor entendimiento de la información que contiene el set de datos con el que se va a trabajar posteriormente.
 
 ###  3. Implementación de API´s ( [ Main ](https://github.com/BryanDarce01/PI_ML_OPS/blob/master/main.py))
 En el archivo main.py se desarrollaró una interfaz utilizando las bibliotecas FastAPI. Esta interfaz permitirá a los usuarios interactuar con el modelo de Machine Learning al proporcionar los datos de entrada necesarios y obtener las predicciones correspondientes. 
@@ -60,7 +60,7 @@ El despliegue permite poner en funcionamiento el modelo y hacerlo accesible para
 # Recomendaciones ⚠️
 - Al hacer las consultas usar la primera letra de cada palabra en mayusculas.
 - No hacer uso de caracteres especiales.
-- Para la función 1. Idioma, ingresar solamente las abreviaturas del idioma en inglés (por ejemplo, "english" sería "en").
+- Para la función 1. Idioma, ingresar solamente las abreviaturas (Por ejemplo: 'english' = 'en' | 'español' = 'es' | 'francés' = 'fr' )
 
 # Contacto 📱
 [Bryan Darce](https://www.linkedin.com/in/bryan-darce/)
