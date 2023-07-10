@@ -129,7 +129,7 @@ def recomendacion(Titulo: str):
         return {'Respuesta': 'El título no existe en el DataFrame'}
 
     # Reducción del tamaño del DataFrame con el título incluido
-    datos_reducidos = df.sample(n=5000, random_state=42)
+    datos_reducidos = df.head(5000)
 
     # Verificar nuevamente si el título existe en la muestra reducida
     if Titulo not in datos_reducidos['Titulo'].values:
