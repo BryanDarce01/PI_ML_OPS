@@ -22,7 +22,7 @@ def prueba():
 # 1. 
 @app.get('/1. Idioma/{Idioma}')
 def peliculas_idioma(Idioma:str):
-    '''Se ingresa un idioma con su abreviatura en inglés y devuelve la cantidad de películas producidas en ese idioma.'''
+    '''Se ingresa un idioma con su abreviatura y devuelve la cantidad de películas producidas en ese idioma.'''
     sacar_idioma = df[df['Idioma'] == Idioma]
     total = len(sacar_idioma)
     return {'Respuesta': f"{total} peliculas se lanzaron en {Idioma}"}
