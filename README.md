@@ -49,7 +49,7 @@
 <p align="justify">
   Para el sistema de recomendación se implementó un modelo de Machine Learning utilizando el algoritmo de similitud de cosenos. 
 
-  Este modelo ha sido entrenado utilizando los datos preprocesados y preparados. Una vez completado el entrenamiento, se procedió a realizar el despliegue de la aplicación utilizando la plataforma [RENDER ](https://darcemlops.onrender.com/docs). 
+  Este modelo ha sido entrenado utilizando los datos preprocesados y preparados. Una vez completado el entrenamiento, se procedió a realizar el despliegue de la aplicación utilizando la plataforma [RENDER ](https://darce.onrender.com/docs#/). 
 
   El despliegue permite poner en funcionamiento el modelo y hacerlo accesible para su uso en la aplicación, brindando así la capacidad de realizar recomendaciones basadas en la similitud de cosenos de manera eficiente y efectiva.
 
